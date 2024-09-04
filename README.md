@@ -124,10 +124,6 @@
 
 项目配置在 [app/app.config.ts][app.config.ts], 包含 `网站标题`、`跳转页`、`登录页` 等配置, 可根据需求自行修改
 
-### [登录鉴权](./layers/requires-auth/)
-
-使用说明可查看 [/layers/requires-auth/README.md](./layers/requires-auth/README.md)
-
 ### 配置 [UnoCSS](./layers/module-unocss/)
 
 使用说明可查看 [/layers/module-unocss/README.md](./layers/module-unocss/README.md)
