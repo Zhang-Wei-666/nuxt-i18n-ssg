@@ -22,7 +22,7 @@
 
     <!-- 跳转到 Github -->
     <button :title="t('github')">
-      <a href="https://github.com/MoomFE-Starter-Template/Base" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/Zhang-Wei-666/nuxt-i18n-ssg" target="_blank" rel="noopener noreferrer">
         <i-mdi-github />
       </a>
     </button>
