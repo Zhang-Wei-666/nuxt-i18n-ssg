@@ -60,9 +60,6 @@ importers:
       '@moomfe/eslint-config':
         specifier: ^3.3.0
         version: 3.3.0(@typescript-eslint/utils@8.3.0(eslint@9.9.1(jiti@1.21.6))(typescript@5.5.4))(@vue/compiler-sfc@3.4.38)(jiti@1.21.6)
-      '@nuxtjs/color-mode':
-        specifier: ^3.4.4
-        version: 3.4.4(magicast@0.3.5)(rollup@4.21.1)
       '@nuxtjs/i18n':
         specifier: ^8.5.1
         version: 8.5.1(magicast@0.3.5)(rollup@4.21.1)(vue@3.4.38(typescript@5.5.4))
@@ -1032,9 +1029,6 @@ packages:
     engines: {node: ^14.18.0 || >=16.10.0}
     peerDependencies:
       vue: ^3.3.4
-
-  '@nuxtjs/color-mode@3.4.4':
-    resolution: {integrity: sha512-VSNJVGnRIjiGmfbMa0cN+rwNRowDRTL/wku/z5MpKSanVo3khIRitBNqNviso1l3T+LW0pLHeXBNp6L8g/l1EA==}
 
   '@nuxtjs/i18n@8.5.1':
     resolution: {integrity: sha512-rU+cGwX1lr5Jyd8lS1ulyTf0adGk6Q+G308Ig0SCrOTV07rHClkoUMpqAAo1Lc85C3Bgea2bFmseLYSfnVMm1A==}
@@ -5850,17 +5844,6 @@ snapshots:
       - vls
       - vti
       - vue-tsc
-
-  '@nuxtjs/color-mode@3.4.4(magicast@0.3.5)(rollup@4.21.1)':
-    dependencies:
-      '@nuxt/kit': 3.13.0(magicast@0.3.5)(rollup@4.21.1)
-      pathe: 1.1.2
-      pkg-types: 1.2.0
-      semver: 7.6.3
-    transitivePeerDependencies:
-      - magicast
-      - rollup
-      - supports-color
 
   '@nuxtjs/i18n@8.5.1(magicast@0.3.5)(rollup@4.21.1)(vue@3.4.38(typescript@5.5.4))':
     dependencies:

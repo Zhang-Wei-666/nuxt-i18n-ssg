@@ -5,13 +5,6 @@
       <i-vaadin-home-o />
     </button>
 
-    <!-- 切换深色模式 -->
-    <button :title="t('toggle-dark-mode')" :data-theme="theme.value" @click="theme.toggle">
-      <i-mdi-theme-light-dark v-if="theme.value === 'system'" />
-      <i-ph-moon v-else-if="theme.value === 'dark'" />
-      <i-ic-outline-wb-sunny v-else />
-    </button>
-
     <!-- 切换语言 -->
     <el-dropdown class="c-inherit!" :title="t('toggle-language')" @command="code => setLocale(code)">
       <button>
@@ -38,8 +31,6 @@
 
 <script lang="ts" setup>
   const { t, locale, locales, setLocale } = useI18n({ useScope: 'local' });
-
-  const theme = useTheme();
 </script>
 
 <style lang="scss" scoped>
